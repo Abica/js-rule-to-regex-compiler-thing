@@ -1,0 +1,11 @@
+Take some business rules and generate a compressed regular expression with encoded run lengths based on the following rules:
+- “A” in the pattern must equal an alpha character
+- any alpha character [A-Z]
+- “#” in the pattern must equal a numeric character (0-9)
+- “@” in the pattern must equal an alphanumeric character
+- “_” in the pattern must match a space, hyphen or underscore
+- “?” in the pattern equals any character
+- A-Z
+- 0-9
+- Special characters
+- NOT case sensitive
